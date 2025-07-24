@@ -66,6 +66,11 @@ A binary value (`1` or `0`) is used to represent each match criterion.
 | F044       | S018        | 100         | 1              | 1           | 1                  | 1              |
 | F022       | S011        | 100         | 1              | 1           | 1                  | 1              |
 
+| founder_id | provider_id | match_score | industry_match | skill_match | project_type_match | timeline_match |
+|------------|-------------|-------------|----------------|-------------|--------------------|----------------|
+| F1         | S3          | 90          | 1              | 1           | 1                  | 1              |
+| F2         | S7          | 65          | 1              | 0           | 1                  | 1              |
+
 
 
 
