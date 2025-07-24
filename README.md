@@ -67,6 +67,10 @@ A binary value (`1` or `0`) is used to represent each match criterion.
 | F022       | S011        | 100         | 1              | 1           | 1                  | 1              |
 
 
+| Founder ID | Provider ID | Match Score | Industry Match | Skill Match | Project Type Match | Timeline Match |
+|------------|-------------|-------------|----------------|-------------|--------------------|----------------|
+| F044       | S018        | 100         | 1              | 1           | 1                  | 1              |
+| F022       | S011        | 100         | 1              | 1           | 1                  | 1              |
 
 
 
