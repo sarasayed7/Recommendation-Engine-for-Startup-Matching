@@ -32,9 +32,8 @@ Each match is scored out of 100 based on:
 |-----------------------|----------------------------------------------|--------|
 | Industry Match        | Founder’s industry == Provider’s preference  | 25     |
 | Skill Match           | Tech requirement == Core skill               | 25     |
-| Project Type Match    | Project need == Preferred project type       | 20     |
-| Timeline Match        | Deadline == Availability                     | 20     |
-| (Optional) Stage Fit  | (if implemented)                             | 10     |
+| Project Type Match    | Project need == Preferred project type       | 25     |
+| Timeline Match        | Deadline == Availability                     | 25     |
 
 A binary value (`1` or `0`) is used to represent each match criterion.
 
@@ -48,7 +47,6 @@ A binary value (`1` or `0`) is used to represent each match criterion.
 - **Visualizations**:
   - Bar chart: Top matches per founder
   - Heatmap: Match score matrix (optional)
-  - Distribution chart: Overall score spread
 
 ---
 
@@ -62,12 +60,12 @@ A binary value (`1` or `0`) is used to represent each match criterion.
 
 ## 📈 Sample Output
 
+- Top Matches
 | founder_id | provider_id | match_score | industry_match | skill_match | project_type_match | timeline_match |
 |------------|-------------|-------------|----------------|-------------|--------------------|----------------|
-| F1         | S3          | 90          | 1              | 1           | 1                  | 1              |
-| F2         | S7          | 65          | 1              | 0           | 1                  | 1              |
+| F044       | S018        | 100         | 1              | 1           | 1                  | 1              |
+| F022       | S011        | 100         | 1              | 1           | 1                  | 1              |
 
----
 
-## 📂 Folder Structure
+
 
